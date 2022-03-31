@@ -1,0 +1,22 @@
+.income_expense {
+  display: flex;
+  margin-top: 1rem;
+  background-color: #299f4b;
+  color: #fff;
+  width: 42%;
+  margin-left: 24rem;
+  padding: 10px;
+}
+.income {
+  margin-left: 0.5rem;
+}
+
+.line {
+  height: 52px;
+  width: 4px;
+  background-color: #fff;
+  position: relative;
+  right: 28%;
+  border: 2px solid #fff;
+  border-radius: 1px;
+}

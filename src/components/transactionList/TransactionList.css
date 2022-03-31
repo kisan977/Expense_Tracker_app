@@ -1,0 +1,60 @@
+.transaction_list h2 {
+  text-align: center;
+  margin-right: 16.5rem;
+  color: #1e129b;
+  margin-top: 1rem;
+}
+.transaction_list {
+  color: #fff;
+}
+.underline {
+  width: 466px;
+  height: 1px;
+  background-color: black;
+  color: #000;
+  position: relative;
+  left: 34.6%;
+}
+.list li {
+  display: flex;
+  background-color: #299f4b;
+  width: 43%;
+  position: relative;
+  left: 34.6%;
+  margin-top: 10px;
+}
+.list li.plus {
+  border-right: 5px solid #2ecc71;
+}
+.delete-btn {
+  cursor: pointer;
+  background-color: #e74c3c;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 2px 5px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-100%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.list li:hover .delete-btn {
+  opacity: 1;
+}
+
+.list li.minus {
+  border-right: 5px solid #c0392b;
+}
+.text{
+  padding: 5px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.amounts{
+  margin-top: 10px;
+  margin-left: 18rem;
+}

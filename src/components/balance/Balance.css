@@ -1,0 +1,14 @@
+.balance h2 {
+  text-align: center;
+  margin-right: 13rem;
+  color: #1e129b;
+}
+.balance {
+  margin-top: 0.5rem;
+}
+
+.amount {
+  text-align: center;
+  margin-right: 18rem;
+  font-weight: 500;
+}
